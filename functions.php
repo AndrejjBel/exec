@@ -50,6 +50,7 @@ function exec_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'exec' ),
+			'menu-2' => esc_html__( 'Footer', 'exec' ),
 		)
 	);
 
@@ -182,3 +183,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+/**
+ * Custom functions.
+ */
+require get_template_directory() . '/inc/functions-inc.php';
