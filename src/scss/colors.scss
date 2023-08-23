@@ -1,0 +1,24 @@
+:root, [data-theme="default"] {
+    --color-primary: #A62B22;
+    --brand-dark-red: #A62B22;
+    --color-bg-white: #fff;
+    --surface-primary: #fff;
+    --surface-ghost: rgba(22, 22, 22, 0.10);
+    --color-bg-light-gray: #F1F2F4;
+    --text-light: #FFF;
+    --text-dark: #161616;
+    --text-secondary: #6B6B6B;
+    --link-color: #B51816;
+    --btn-bg: rgba(22, 22, 22, 0.10);
+    --stroke: #BFBFBF;
+}
+
+[data-theme="dark"] {
+    --color-primary: #A62B22;
+    --color-bg-white: #fff;
+    --color-bg-light-gray: #F1F2F4;
+    --text-dark: #161616;
+    --text-secondary: #6B6B6B;
+    --link-color: #B51816;
+    --btn-bg: rgba(22, 22, 22, 0.10);
+}

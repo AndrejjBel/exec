@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWeb-NarrowThin.eot');
+    src: local('Mediator Serif Web Narrow Thin'), local('MediatorSerifWeb-NarrowThin'),
+        url('MediatorSerifWeb-NarrowThin.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowThin.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowThin.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWeb-NarrowLight.eot');
+    src: local('Mediator Serif Web Narrow Light'), local('MediatorSerifWeb-NarrowLight'),
+        url('MediatorSerifWeb-NarrowLight.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowLight.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowLight.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow ExtBd';
+    src: url('MediatorSerifWebNarrow-ExBdIt.eot');
+    src: local('Mediator Serif Web Narrow ExBd'), local('MediatorSerifWebNarrow-ExBdIt'),
+        url('MediatorSerifWebNarrow-ExBdIt.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWebNarrow-ExBdIt.woff2') format('woff2'),
+        url('MediatorSerifWebNarrow-ExBdIt.woff') format('woff'),
+        url('MediatorSerifWebNarrow-ExBdIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Extra';
+    src: url('MediatorSerifWeb-ExtraBold.eot');
+    src: local('Mediator Serif Web Extra Bold'), local('MediatorSerifWeb-ExtraBold'),
+        url('MediatorSerifWeb-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-ExtraBold.woff2') format('woff2'),
+        url('MediatorSerifWeb-ExtraBold.woff') format('woff'),
+        url('MediatorSerifWeb-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWebNarrow-BdIt.eot');
+    src: local('Mediator Serif Web Narrow Bd It'), local('MediatorSerifWebNarrow-BdIt'),
+        url('MediatorSerifWebNarrow-BdIt.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWebNarrow-BdIt.woff2') format('woff2'),
+        url('MediatorSerifWebNarrow-BdIt.woff') format('woff'),
+        url('MediatorSerifWebNarrow-BdIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-BoldItalic.eot');
+    src: local('Mediator Serif Web Bold Italic'), local('MediatorSerifWeb-BoldItalic'),
+        url('MediatorSerifWeb-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-BoldItalic.woff2') format('woff2'),
+        url('MediatorSerifWeb-BoldItalic.woff') format('woff'),
+        url('MediatorSerifWeb-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Ultra';
+    src: url('MediatorSerifWeb-UltraLightItal.eot');
+    src: local('Mediator Serif Web Ultra Light Italic'), local('MediatorSerifWeb-UltraLightItal'),
+        url('MediatorSerifWeb-UltraLightItal.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-UltraLightItal.woff2') format('woff2'),
+        url('MediatorSerifWeb-UltraLightItal.woff') format('woff'),
+        url('MediatorSerifWeb-UltraLightItal.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWeb-NarrowLightIta.eot');
+    src: local('Mediator Serif Web Narrow Light Italic'), local('MediatorSerifWeb-NarrowLightIta'),
+        url('MediatorSerifWeb-NarrowLightIta.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowLightIta.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowLightIta.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowLightIta.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWeb-NarrowBlackIta.eot');
+    src: local('Mediator Serif Web Narrow Black Ital'), local('MediatorSerifWeb-NarrowBlackIta'),
+        url('MediatorSerifWeb-NarrowBlackIta.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowBlackIta.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowBlackIta.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowBlackIta.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow UltLt';
+    src: url('MediatorSerifWeb-NarrowUltLt.eot');
+    src: local('Mediator Serif Web Narrow UltLt'), local('MediatorSerifWeb-NarrowUltLt'),
+        url('MediatorSerifWeb-NarrowUltLt.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowUltLt.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowUltLt.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowUltLt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow UltLt';
+    src: url('MediatorSerifWeb-NarrowUltLtIta.eot');
+    src: local('Mediator Serif Web Narrow UltLt Ital'), local('MediatorSerifWeb-NarrowUltLtIta'),
+        url('MediatorSerifWeb-NarrowUltLtIta.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowUltLtIta.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowUltLtIta.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowUltLtIta.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Extra';
+    src: url('MediatorSerifWeb-ExtraLight.eot');
+    src: local('Mediator Serif Web Extra Light'), local('MediatorSerifWeb-ExtraLight'),
+        url('MediatorSerifWeb-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-ExtraLight.woff2') format('woff2'),
+        url('MediatorSerifWeb-ExtraLight.woff') format('woff'),
+        url('MediatorSerifWeb-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWeb-NarrowItal.eot');
+    src: local('Mediator Serif Web Narrow Ital'), local('MediatorSerifWeb-NarrowItal'),
+        url('MediatorSerifWeb-NarrowItal.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowItal.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowItal.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowItal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-ThinItalic.eot');
+    src: local('Mediator Serif Web Thin Italic'), local('MediatorSerifWeb-ThinItalic'),
+        url('MediatorSerifWeb-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-ThinItalic.woff2') format('woff2'),
+        url('MediatorSerifWeb-ThinItalic.woff') format('woff'),
+        url('MediatorSerifWeb-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-Light.eot');
+    src: local('Mediator Serif Web Light'), local('MediatorSerifWeb-Light'),
+        url('MediatorSerifWeb-Light.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-Light.woff2') format('woff2'),
+        url('MediatorSerifWeb-Light.woff') format('woff'),
+        url('MediatorSerifWeb-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow ExtBd';
+    src: url('MediatorSerifWeb-NarrowExtBd.eot');
+    src: local('Mediator Serif Web Narrow ExtBd'), local('MediatorSerifWeb-NarrowExtBd'),
+        url('MediatorSerifWeb-NarrowExtBd.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowExtBd.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowExtBd.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowExtBd.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWebNarrow-Bold.eot');
+    src: local('Mediator Serif Web Narrow Bold'), local('MediatorSerifWebNarrow-Bold'),
+        url('MediatorSerifWebNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWebNarrow-Bold.woff2') format('woff2'),
+        url('MediatorSerifWebNarrow-Bold.woff') format('woff'),
+        url('MediatorSerifWebNarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Extra';
+    src: url('MediatorSerifWeb-ExtraLightItal.eot');
+    src: local('Mediator Serif Web Extra Light Italic'), local('MediatorSerifWeb-ExtraLightItal'),
+        url('MediatorSerifWeb-ExtraLightItal.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-ExtraLightItal.woff2') format('woff2'),
+        url('MediatorSerifWeb-ExtraLightItal.woff') format('woff'),
+        url('MediatorSerifWeb-ExtraLightItal.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-Bold.eot');
+    src: local('Mediator Serif Web Bold'), local('MediatorSerifWeb-Bold'),
+        url('MediatorSerifWeb-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-Bold.woff2') format('woff2'),
+        url('MediatorSerifWeb-Bold.woff') format('woff'),
+        url('MediatorSerifWeb-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWeb-Narrow.eot');
+    src: local('Mediator Serif Web Narrow'), local('MediatorSerifWeb-Narrow'),
+        url('MediatorSerifWeb-Narrow.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-Narrow.woff2') format('woff2'),
+        url('MediatorSerifWeb-Narrow.woff') format('woff'),
+        url('MediatorSerifWeb-Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-Black.eot');
+    src: local('Mediator Serif Web Black'), local('MediatorSerifWeb-Black'),
+        url('MediatorSerifWeb-Black.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-Black.woff2') format('woff2'),
+        url('MediatorSerifWeb-Black.woff') format('woff'),
+        url('MediatorSerifWeb-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-Italic.eot');
+    src: local('Mediator Serif Web Italic'), local('MediatorSerifWeb-Italic'),
+        url('MediatorSerifWeb-Italic.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-Italic.woff2') format('woff2'),
+        url('MediatorSerifWeb-Italic.woff') format('woff'),
+        url('MediatorSerifWeb-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-BlackItalic.eot');
+    src: local('Mediator Serif Web Black Italic'), local('MediatorSerifWeb-BlackItalic'),
+        url('MediatorSerifWeb-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-BlackItalic.woff2') format('woff2'),
+        url('MediatorSerifWeb-BlackItalic.woff') format('woff'),
+        url('MediatorSerifWeb-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow ExtLt';
+    src: url('MediatorSerifWeb-NarrowExtLt.eot');
+    src: local('Mediator Serif Web Narrow ExtLt'), local('MediatorSerifWeb-NarrowExtLt'),
+        url('MediatorSerifWeb-NarrowExtLt.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowExtLt.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowExtLt.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowExtLt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-Regular.eot');
+    src: local('Mediator Serif Web'), local('MediatorSerifWeb-Regular'),
+        url('MediatorSerifWeb-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-Regular.woff2') format('woff2'),
+        url('MediatorSerifWeb-Regular.woff') format('woff'),
+        url('MediatorSerifWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-Thin.eot');
+    src: local('Mediator Serif Web Thin'), local('MediatorSerifWeb-Thin'),
+        url('MediatorSerifWeb-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-Thin.woff2') format('woff2'),
+        url('MediatorSerifWeb-Thin.woff') format('woff'),
+        url('MediatorSerifWeb-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow ExtLt';
+    src: url('MediatorSerifWeb-NarrowExtLtIta.eot');
+    src: local('Mediator Serif Web Narrow ExtLt Ital'), local('MediatorSerifWeb-NarrowExtLtIta'),
+        url('MediatorSerifWeb-NarrowExtLtIta.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowExtLtIta.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowExtLtIta.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowExtLtIta.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Ultra';
+    src: url('MediatorSerifWeb-UltraLight.eot');
+    src: local('Mediator Serif Web Ultra Light'), local('MediatorSerifWeb-UltraLight'),
+        url('MediatorSerifWeb-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-UltraLight.woff2') format('woff2'),
+        url('MediatorSerifWeb-UltraLight.woff') format('woff'),
+        url('MediatorSerifWeb-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web';
+    src: url('MediatorSerifWeb-LightItalic.eot');
+    src: local('Mediator Serif Web Light Italic'), local('MediatorSerifWeb-LightItalic'),
+        url('MediatorSerifWeb-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-LightItalic.woff2') format('woff2'),
+        url('MediatorSerifWeb-LightItalic.woff') format('woff'),
+        url('MediatorSerifWeb-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWeb-NarrowThinItal.eot');
+    src: local('Mediator Serif Web Narrow Thin Ital'), local('MediatorSerifWeb-NarrowThinItal'),
+        url('MediatorSerifWeb-NarrowThinItal.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowThinItal.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowThinItal.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowThinItal.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Extra';
+    src: url('MediatorSerifWeb-ExtraBoldItal.eot');
+    src: local('Mediator Serif Web Extra Bold Italic'), local('MediatorSerifWeb-ExtraBoldItal'),
+        url('MediatorSerifWeb-ExtraBoldItal.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-ExtraBoldItal.woff2') format('woff2'),
+        url('MediatorSerifWeb-ExtraBoldItal.woff') format('woff'),
+        url('MediatorSerifWeb-ExtraBoldItal.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mediator Serif Web Narrow';
+    src: url('MediatorSerifWeb-NarrowBlack.eot');
+    src: local('Mediator Serif Web Narrow Black'), local('MediatorSerifWeb-NarrowBlack'),
+        url('MediatorSerifWeb-NarrowBlack.eot?#iefix') format('embedded-opentype'),
+        url('MediatorSerifWeb-NarrowBlack.woff2') format('woff2'),
+        url('MediatorSerifWeb-NarrowBlack.woff') format('woff'),
+        url('MediatorSerifWeb-NarrowBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+

@@ -51,6 +51,8 @@ function exec_setup() {
 		array(
 			'menu-1' => esc_html__( 'Primary', 'exec' ),
 			'menu-2' => esc_html__( 'Footer', 'exec' ),
+			'menu-3' => esc_html__( 'Primary en', 'exec' ),
+			'menu-4' => esc_html__( 'Footer en', 'exec' ),
 		)
 	);
 
