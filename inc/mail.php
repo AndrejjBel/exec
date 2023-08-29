@@ -23,9 +23,9 @@ function exec_form_submit(){
       echo $error_fin;
       wp_die();
     } else {
-        $email_send = exec_get_options('email_message'); // 'creat-sites@yandex.ru'; 
+        $email_send = exec_get_options('email_message'); // 'creat-sites@yandex.ru';
         // $admin_email = get_bloginfo('admin_email');
-        $from = 'admin@exec.creatsites.ru';
+        $from = 'admin@execfourzero.com';
         $home_url = get_home_url() . $_POST['_wp_http_referer'];
 
         $mailTo = $email_send;
