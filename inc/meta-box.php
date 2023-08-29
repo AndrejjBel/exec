@@ -233,7 +233,7 @@ class_exists( 'Kama_Post_Meta_Box' ) && new Kama_Post_Meta_Box( [
 ] );
 
 function disable_box($post) {
-    if ( $post->ID != 5 && $post->ID != 10 ) {
+    if ( $post->ID != 6 && $post->ID != 8 ) {
         return 'отключить';
     }
 }

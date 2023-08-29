@@ -23,7 +23,7 @@ function exec_form_submit(){
       echo $error_fin;
       wp_die();
     } else {
-        $email_send = 'creat-sites@yandex.ru'; //exec_get_options('email_message');
+        $email_send = exec_get_options('email_message'); // 'creat-sites@yandex.ru'; 
         // $admin_email = get_bloginfo('admin_email');
         $from = 'admin@exec.creatsites.ru';
         $home_url = get_home_url() . $_POST['_wp_http_referer'];

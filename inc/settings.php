@@ -57,8 +57,10 @@ function exec_settings(){
 function fill_exec_field_email(){
 	$val = get_option('option_name');
     $val_option = '';
-    if ( array_key_exists( 'email_message', $val ) ) {
-        $val_option = $val['email_message'] ? $val['email_message'] : null;
+    if ( $val ) {
+        if ( array_key_exists( 'email_message', $val ) ) {
+            $val_option = $val['email_message'] ? $val['email_message'] : null;
+        }
     }
 	?>
     <div class="settings-field">
@@ -70,8 +72,10 @@ function fill_exec_field_email(){
 function fill_exec_field_phone(){
 	$val = get_option('option_name');
     $val_option = '';
-    if ( array_key_exists( 'phone_contact', $val ) ) {
-        $val_option = $val['phone_contact'] ? $val['phone_contact'] : null;
+    if ( $val ) {
+        if ( array_key_exists( 'phone_contact', $val ) ) {
+            $val_option = $val['phone_contact'] ? $val['phone_contact'] : null;
+        }
     }
 	?>
     <div class="settings-field">
@@ -83,8 +87,10 @@ function fill_exec_field_phone(){
 function fill_exec_field_platform_link(){
 	$val = get_option('option_name');
     $val_option = '';
-    if ( array_key_exists( 'platform_link', $val ) ) {
-        $val_option = $val['platform_link'] ? $val['platform_link'] : null;
+    if ( $val ) {
+        if ( array_key_exists( 'platform_link', $val ) ) {
+            $val_option = $val['platform_link'] ? $val['platform_link'] : null;
+        }
     }
 	?>
     <div class="settings-field">
@@ -96,8 +102,10 @@ function fill_exec_field_platform_link(){
 function fill_exec_field_type_lang(){
 	$val = get_option('option_name');
     $val_option = '';
-    if ( array_key_exists( 'type_lang', $val ) ) {
-        $val_option = $val['type_lang'] ? $val['type_lang'] : null;
+    if ( $val ) {
+        if ( array_key_exists( 'type_lang', $val ) ) {
+            $val_option = $val['type_lang'] ? $val['type_lang'] : null;
+        }
     }
 	?>
 	<label><input type="checkbox" name="option_name[type_lang]" value="1" <?php checked( 1, $val_option ) ?> /> использовать свой перевод из настроек ниже</label>
@@ -117,8 +125,10 @@ function fill_exec_field_lang(){
 function fill_exec_field_copyright(){
 	$val = get_option('option_name');
     $val_option = '';
-    if ( array_key_exists( 'copyright', $val ) ) {
-        $val_option = $val['copyright'] ? $val['copyright'] : null;
+    if ( $val ) {
+        if ( array_key_exists( 'copyright', $val ) ) {
+            $val_option = $val['copyright'] ? $val['copyright'] : null;
+        }
     }
 	?>
     <div class="settings-field">
