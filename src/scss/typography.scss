@@ -45,10 +45,9 @@ button.prymary {
     border-radius: 16px;
     background: var(--brand-dark-red, #A62B22);
 
-    // &:hover {
-    //     color: var(--text-secondary, #6B6B6B);
-    //     background: var(--surface-background, #F1F2F4);
-    // }
+    &:hover {
+        background: var(--hover-color, #87231C);
+    }
 }
 
 a {
@@ -69,10 +68,9 @@ a.prymary {
     background: var(--brand-dark-red, #A62B22);
     text-decoration: none;
 
-    // &:hover {
-    //     color: var(--text-secondary, #6B6B6B);
-    //     background: var(--surface-background, #F1F2F4);
-    // }
+    &:hover {
+        background: var(--hover-color, #87231C);
+    }
 
     &.menu-mobile {
         width: 100%;
@@ -181,4 +179,58 @@ textarea.exec-textarea {
     @media (max-width: 1023px) {
         padding: 17px 16px;
     }
+}
+
+.group-input {
+	position: relative;
+
+	& input:focus+label {
+        display: none;
+    }
+
+	& input:not(:placeholder-shown)+label {
+		display: none;
+	}
+
+	& label {
+		position: absolute;
+		top: 24px;
+		left: 24px;
+		font-size: 18px;
+		color: #6B6B6B;
+
+		@media (max-width: 1023px) {
+			font-size: 16px;
+			top: 19px;
+			left: 16px;
+	    }
+	}
+
+	& input:focus > span.input-warning {
+        display: none;
+    }
+
+	& input:not(:placeholder-shown) > span.input-warning {
+		display: none;
+	}
+
+	& span.input-warning {
+		position: absolute;
+		top: 24px;
+		right: 24px;
+		display: none;
+		color: #A62B22;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 125%;
+		letter-spacing: -0.32px;
+
+		@media (max-width: 1023px) {
+			font-size: 12px;
+			letter-spacing: -0.24px;
+			top: 22px;
+			right: 16px;
+	    }
+	}
 }

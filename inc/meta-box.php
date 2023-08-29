@@ -16,12 +16,12 @@ class_exists( 'Kama_Post_Meta_Box' ) && new Kama_Post_Meta_Box( [
 			'title' => 'Подзаголовок блока',
             'type'  => 'textarea',
 		],
-		'btn_text' => [
-			'title' => 'Текст кнопки',
-		],
-        'btn_link' => [
-			'title' => 'Ссылка кнопки',
-		],
+		// 'btn_text' => [
+		// 	'title' => 'Текст кнопки',
+		// ],
+        // 'btn_link' => [
+		// 	'title' => 'Ссылка кнопки',
+		// ],
 	],
 ] );
 
@@ -157,6 +157,8 @@ class_exists( 'Kama_Post_Meta_Box' ) && new Kama_Post_Meta_Box( [
 			'title' => 'Заголовок блока'
 		],
 
+        'sep_1' => [ 'title'=>'Менеджер 1' ],
+
         'management_item_name1' => [
 			'title' => 'Имя менеджера'
 		],
@@ -177,6 +179,8 @@ class_exists( 'Kama_Post_Meta_Box' ) && new Kama_Post_Meta_Box( [
         'management_item_email1' => [
 			'title' => 'E-mail менеджера'
 		],
+
+        'sep_2' => [ 'title'=>'Менеджер 2' ],
 
         'management_item_name2' => [
 			'title' => 'Имя менеджера'
@@ -212,17 +216,19 @@ class_exists( 'Kama_Post_Meta_Box' ) && new Kama_Post_Meta_Box( [
 			'title' => 'Заголовок блока'
 		],
 		'platform_subtitle' => [
-			'title' => 'Подзаголовок блока'
+			'title' => 'Подзаголовок блока',
+			'type'  => 'textarea',
 		],
         'platform_description' => [
-			'title' => 'Описание блока'
+			'title' => 'Описание блока',
+			'type'  => 'textarea',
 		],
-        'platform_btn_text' => [
-			'title' => 'Текст кнопки',
-		],
-        'platform_btn_link' => [
-			'title' => 'Ссылка кнопки',
-		],
+        // 'platform_btn_text' => [
+		// 	'title' => 'Текст кнопки',
+		// ],
+        // 'platform_btn_link' => [
+		// 	'title' => 'Ссылка кнопки',
+		// ],
 	],
 ] );
 

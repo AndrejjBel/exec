@@ -15,5 +15,7 @@ get_template_part( 'template-parts/header-footer/footer' );
 
 <?php wp_footer(); ?>
 
+<div class="overlay js-overlay-modal"></div>
+
 </body>
 </html>

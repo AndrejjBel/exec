@@ -75,11 +75,11 @@
                 );
             ?>
             <div class="menu-primary-mobile-container__contacts">
-                <span>Для связи</span>
+                <span><?php echo exec_language_words('Для связи');?></span>
                 <a class="fs44 ff-mediator" href="mailto:info@execfourzero.com">info@execfourzero.com</a>
             </div>
             <div class="menu-primary-mobile-container__link">
-                <a href="#" class="prymary menu-mobile fs20 width100">Перейти на платформу</a>
+                <a href="<?php echo exec_get_options('platform_link');?>" class="prymary menu-mobile fs20 width100"><?php echo exec_language_words('Перейти на платформу');?></a>
             </div>
         </div>
 
@@ -87,7 +87,7 @@
             <h1 class="exec-top__hero__title exec-title ff-mediator"><?php echo $post->title;?></h1>
             <div class="exec-top__hero__subtitle fs20"><?php echo $post->subtitle;?></div>
             <div class="exec-top__hero__link">
-                <a href="<?php echo $post->btn_link;?>" class="prymary fs20"><?php echo $post->btn_text;?></a>
+                <a href="<?php echo exec_get_options('platform_link');?>" class="prymary fs20"><?php echo exec_language_words('Перейти на платформу');?></a>
             </div>
         </div>
 
