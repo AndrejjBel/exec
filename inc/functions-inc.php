@@ -57,7 +57,7 @@ function exec_language_attributes() {
 
 add_filter( 'document_title', 'modify_document_title_for_front_page' );
 function modify_document_title_for_front_page( $title ) {
-	return is_page( 'en' ) ? 'EXEC 4.0' : $title;
+	return is_page( 'en' ) ? 'EXEC 4.0 Ecosystem for leaders of tomorrow' : $title;
 }
 
 function exec_language_police() {
