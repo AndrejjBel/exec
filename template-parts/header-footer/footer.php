@@ -18,7 +18,7 @@
     </div>
     <div class="exec-footer__copyright">
         <?php if ( is_page( 'en' ) ) { ?>
-            <div class="exec-footer__copyright__item">© EXEC 4.0 2024</div>
+            <div class="exec-footer__copyright__item"><?php echo exec_get_options('copyright');?></div>
             <div class="exec-footer__copyright__item">
                 <a href="#" class="js-open-modal" data-modal="data-police">Data Policy</a>
             </div>
@@ -27,7 +27,7 @@
             </div>
             <div class="exec-footer__copyright__item">121099 Moscow, 2nd Smolensky lane, 1/4</div>
         <?php } else { ?>
-            <div class="exec-footer__copyright__item">© EXEC 4.0 2024</div>
+            <div class="exec-footer__copyright__item"><?php echo exec_get_options('copyright');?></div>
             <div class="exec-footer__copyright__item">
                 <a href="#" class="js-open-modal" data-modal="data-police">Политика в отношении данных</a>
             </div>

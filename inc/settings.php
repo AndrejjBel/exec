@@ -49,47 +49,58 @@ function exec_settings(){
 	add_settings_field('exec_field_email', 'E-mail для сообщений с сайта', 'fill_exec_field_email', 'exec_settings', 'section_id' );
     add_settings_field('exec_field_phone', 'Телефон в блоке Контакты', 'fill_exec_field_phone', 'exec_settings', 'section_id' );
 	add_settings_field('exec_field_platform_link', 'Ссылка на платформу', 'fill_exec_field_platform_link', 'exec_settings', 'section_id' );
+    add_settings_field('exec_field_copyright', 'Текст copyright', 'fill_exec_field_copyright', 'exec_settings', 'section_id' );
     // add_settings_field('exec_field_type_lang', 'Свой перевод', 'fill_exec_field_type_lang', 'exec_settings', 'section_id' );
     // add_settings_field('exec_field_lang', 'Свой перевод фраз', 'fill_exec_field_lang', 'exec_settings', 'section_id' );
 }
 
 function fill_exec_field_email(){
 	$val = get_option('option_name');
-	$val = $val ? $val['email_message'] : null;
+    $val_option = '';
+    if ( array_key_exists( 'email_message', $val ) ) {
+        $val_option = $val['email_message'] ? $val['email_message'] : null;
+    }
 	?>
     <div class="settings-field">
-        <input type="text" name="option_name[email_message]" value="<?php echo esc_attr( $val ) ?>" />
+        <input type="text" name="option_name[email_message]" value="<?php echo esc_attr( $val_option ) ?>" />
     </div>
 	<?php
 }
 
 function fill_exec_field_phone(){
 	$val = get_option('option_name');
-	$val = $val ? $val['phone_contact'] : null;
+    $val_option = '';
+    if ( array_key_exists( 'phone_contact', $val ) ) {
+        $val_option = $val['phone_contact'] ? $val['phone_contact'] : null;
+    }
 	?>
     <div class="settings-field">
-        <input type="text" name="option_name[phone_contact]" value="<?php echo esc_attr( $val ) ?>" />
+        <input type="text" name="option_name[phone_contact]" value="<?php echo esc_attr( $val_option ) ?>" />
     </div>
 	<?php
 }
 
 function fill_exec_field_platform_link(){
 	$val = get_option('option_name');
-	$val = $val ? $val['platform_link'] : null;
+    $val_option = '';
+    if ( array_key_exists( 'platform_link', $val ) ) {
+        $val_option = $val['platform_link'] ? $val['platform_link'] : null;
+    }
 	?>
     <div class="settings-field">
-        <input type="text" name="option_name[platform_link]" value="<?php echo esc_attr( $val ) ?>" />
+        <input type="text" name="option_name[platform_link]" value="<?php echo esc_attr( $val_option ) ?>" />
     </div>
 	<?php
 }
 
 function fill_exec_field_type_lang(){
 	$val = get_option('option_name');
+    $val_option = '';
     if ( array_key_exists( 'type_lang', $val ) ) {
-        $val = $val ? $val['type_lang'] : null;
+        $val_option = $val['type_lang'] ? $val['type_lang'] : null;
     }
 	?>
-	<label><input type="checkbox" name="option_name[type_lang]" value="1" <?php checked( 1, $val ) ?> /> использовать свой перевод из настроек ниже</label>
+	<label><input type="checkbox" name="option_name[type_lang]" value="1" <?php checked( 1, $val_option ) ?> /> использовать свой перевод из настроек ниже</label>
 	<?php
 }
 
@@ -99,6 +110,19 @@ function fill_exec_field_lang(){
 	?>
     <div class="settings-field">
         <textarea name="lang" rows="12" cols="80" placeholder=""><?php echo esc_attr( $val_lang ) ?></textarea>
+    </div>
+	<?php
+}
+
+function fill_exec_field_copyright(){
+	$val = get_option('option_name');
+    $val_option = '';
+    if ( array_key_exists( 'copyright', $val ) ) {
+        $val_option = $val['copyright'] ? $val['copyright'] : null;
+    }
+	?>
+    <div class="settings-field">
+        <input type="text" name="option_name[copyright]" value="<?php echo esc_attr( $val_option ) ?>" />
     </div>
 	<?php
 }
